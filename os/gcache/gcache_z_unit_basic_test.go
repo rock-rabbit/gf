@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -10,16 +10,16 @@ package gcache_test
 
 import (
 	"context"
-	"github.com/gogf/gf/util/guid"
+	"github.com/rock-rabbit/gf/util/guid"
 	"math"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/container/gset"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcache"
-	"github.com/gogf/gf/os/grpool"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/container/gset"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gcache"
+	"github.com/rock-rabbit/gf/os/grpool"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func TestCache_GCache_Set(t *testing.T) {

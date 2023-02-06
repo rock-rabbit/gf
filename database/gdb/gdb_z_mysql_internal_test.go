@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/container/gvar"
+	"github.com/rock-rabbit/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/os/gtime"
+	"github.com/rock-rabbit/gf/test/gtest"
 	"testing"
 )
 
@@ -323,7 +323,7 @@ func TestResult_Structs1(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/rock-rabbit/gf/issues/1159
 func Test_ScanList_NoRecreate_PtrAttribute(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -379,7 +379,7 @@ func Test_ScanList_NoRecreate_PtrAttribute(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/rock-rabbit/gf/issues/1159
 func Test_ScanList_NoRecreate_StructAttribute(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -435,7 +435,7 @@ func Test_ScanList_NoRecreate_StructAttribute(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/rock-rabbit/gf/issues/1159
 func Test_ScanList_NoRecreate_SliceAttribute_Ptr(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {
@@ -539,7 +539,7 @@ func Test_ScanList_NoRecreate_SliceAttribute_Ptr(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/1159
+// https://github.com/rock-rabbit/gf/issues/1159
 func Test_ScanList_NoRecreate_SliceAttribute_Struct(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type S1 struct {

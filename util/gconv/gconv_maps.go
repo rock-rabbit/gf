@@ -2,11 +2,11 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gconv
 
-import "github.com/gogf/gf/internal/json"
+import "github.com/rock-rabbit/gf/internal/json"
 
 // SliceMap is alias of Maps.
 func SliceMap(any interface{}) []map[string]interface{} {

@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 )
 
 func main() {

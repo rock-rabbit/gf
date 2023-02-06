@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package utils
 
 import (
-	"github.com/gogf/gf/internal/command"
+	"github.com/rock-rabbit/gf/internal/command"
 )
 
 const (
 	commandEnvKeyForDebugKey = "gf.debug"            // Debug key for checking if in debug mode.
-	StackFilterKeyForGoFrame = "github.com/gogf/gf@" // Stack filtering key for all GoFrame module paths.
+	StackFilterKeyForGoFrame = "github.com/rock-rabbit/gf@" // Stack filtering key for all GoFrame module paths.
 )
 
 var (

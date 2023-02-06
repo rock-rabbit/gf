@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gerror provides simple functions to manipulate errors.
 //
@@ -12,7 +12,7 @@ package gerror
 
 import (
 	"fmt"
-	"github.com/gogf/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gcode"
 )
 
 // apiCode is the interface for Code feature.

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gfile"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gfile"
 )
 
 // 设置日志输出路径

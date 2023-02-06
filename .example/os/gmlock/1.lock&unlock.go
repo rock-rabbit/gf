@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gmlock"
+	"github.com/rock-rabbit/gf/os/glog"
+	"github.com/rock-rabbit/gf/os/gmlock"
 )
 
 // 内存锁基本使用

@@ -2,11 +2,11 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gi18n
 
-import "github.com/gogf/gf/container/gmap"
+import "github.com/rock-rabbit/gf/container/gmap"
 
 const (
 	// DefaultName is the default group name for instance usage.

@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gtcp_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/net/gtcp"
+	"github.com/rock-rabbit/gf/test/gtest"
 	"testing"
 	"time"
 )

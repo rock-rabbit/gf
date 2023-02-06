@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gaes provides useful API for AES encryption/decryption algorithms.
 package gaes
@@ -11,8 +11,8 @@ import (
 	"bytes"
 	"crypto/aes"
 	"crypto/cipher"
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
 )
 
 var (

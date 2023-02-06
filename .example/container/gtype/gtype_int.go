@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gogf/gf/container/gtype"
+	"github.com/rock-rabbit/gf/container/gtype"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gqueue provides dynamic/static concurrent-safe queue.
 //
@@ -21,8 +21,8 @@ package gqueue
 import (
 	"math"
 
-	"github.com/gogf/gf/container/glist"
-	"github.com/gogf/gf/container/gtype"
+	"github.com/rock-rabbit/gf/container/glist"
+	"github.com/rock-rabbit/gf/container/gtype"
 )
 
 // Queue is a concurrent-safe queue built on doubly linked list and channel.

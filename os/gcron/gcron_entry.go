@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gcron
 
 import (
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
 	"reflect"
 	"runtime"
 	"time"
 
-	"github.com/gogf/gf/container/gtype"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/container/gtype"
+	"github.com/rock-rabbit/gf/os/gtimer"
+	"github.com/rock-rabbit/gf/util/gconv"
 )
 
 // Entry is timing task entry.

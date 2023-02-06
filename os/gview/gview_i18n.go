@@ -2,14 +2,14 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gview
 
 import (
 	"context"
-	"github.com/gogf/gf/i18n/gi18n"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/i18n/gi18n"
+	"github.com/rock-rabbit/gf/util/gconv"
 )
 
 const (

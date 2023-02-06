@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/util/gvalid"
 )
 
 // 返回结果方法示例

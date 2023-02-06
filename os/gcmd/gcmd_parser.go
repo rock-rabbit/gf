@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 //
 
 package gcmd
 
 import (
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/json"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/internal/json"
 	"os"
 	"strings"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/rock-rabbit/gf/text/gstr"
 
-	"github.com/gogf/gf/container/gvar"
+	"github.com/rock-rabbit/gf/container/gvar"
 
-	"github.com/gogf/gf/text/gregex"
+	"github.com/rock-rabbit/gf/text/gregex"
 )
 
 // Parser for arguments.

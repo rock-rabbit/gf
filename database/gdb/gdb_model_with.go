@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gdb
 
 import (
 	"fmt"
-	"github.com/gogf/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gcode"
 	"reflect"
 
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/structs"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/internal/structs"
+	"github.com/rock-rabbit/gf/internal/utils"
+	"github.com/rock-rabbit/gf/text/gregex"
+	"github.com/rock-rabbit/gf/text/gstr"
 )
 
 // With creates and returns an ORM model based on metadata of given object.

@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/text/gregex"
+	"github.com/rock-rabbit/gf/os/glog"
+	"github.com/rock-rabbit/gf/text/gregex"
 )
 
 type MyWriter struct {

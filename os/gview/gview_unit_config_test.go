@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gview_test
 
 import (
 	"context"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gview"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/debug/gdebug"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gview"
+	"github.com/rock-rabbit/gf/test/gtest"
 	"testing"
 )
 

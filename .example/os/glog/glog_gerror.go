@@ -2,9 +2,9 @@ package main
 
 import (
 	"errors"
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/errors/gerror"
 )
 
 func MakeError() error {

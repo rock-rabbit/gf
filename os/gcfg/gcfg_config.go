@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gcfg
 
@@ -10,20 +10,20 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gfsnotify"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/os/gspath"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gmode"
+	"github.com/rock-rabbit/gf/container/garray"
+	"github.com/rock-rabbit/gf/container/gmap"
+	"github.com/rock-rabbit/gf/encoding/gjson"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/internal/intlog"
+	"github.com/rock-rabbit/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gfsnotify"
+	"github.com/rock-rabbit/gf/os/glog"
+	"github.com/rock-rabbit/gf/os/gres"
+	"github.com/rock-rabbit/gf/os/gspath"
+	"github.com/rock-rabbit/gf/text/gstr"
+	"github.com/rock-rabbit/gf/util/gmode"
 )
 
 // New returns a new configuration management object.

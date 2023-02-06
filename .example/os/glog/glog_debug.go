@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/os/gtimer"
+	"github.com/rock-rabbit/gf/os/gtime"
+	"github.com/rock-rabbit/gf/os/gtimer"
 )
 
 func main() {

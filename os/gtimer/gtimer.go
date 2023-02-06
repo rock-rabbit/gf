@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gtimer implements timer for interval/delayed jobs running and management.
 //
@@ -19,11 +19,11 @@
 package gtimer
 
 import (
-	"github.com/gogf/gf/container/gtype"
+	"github.com/rock-rabbit/gf/container/gtype"
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/os/gcmd"
 )
 
 // Timer is the timer manager, which uses ticks to calculate the timing interval.

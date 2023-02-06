@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gdb_test
 
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/container/garray"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gcmd"
 
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/database/gdb"
+	"github.com/rock-rabbit/gf/os/gtime"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 const (

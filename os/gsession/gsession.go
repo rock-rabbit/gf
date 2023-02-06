@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gsession implements manager and storage features for sessions.
 package gsession
 
 import (
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/util/guid"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/util/guid"
 )
 
 var (

@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*" -benchmem
 
 package gcfg
 
 import (
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/os/genv"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/container/gmap"
+	"github.com/rock-rabbit/gf/debug/gdebug"
+	"github.com/rock-rabbit/gf/os/genv"
+	"github.com/rock-rabbit/gf/os/gfile"
+	"github.com/rock-rabbit/gf/test/gtest"
 	"testing"
 )
 

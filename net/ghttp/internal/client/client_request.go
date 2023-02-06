@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package client
 
 import (
 	"bytes"
 	"context"
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/internal/intlog"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/internal/utils"
-	"github.com/gogf/gf/net/ghttp/internal/httputil"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/internal/intlog"
+	"github.com/rock-rabbit/gf/internal/json"
+	"github.com/rock-rabbit/gf/internal/utils"
+	"github.com/rock-rabbit/gf/net/ghttp/internal/httputil"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/encoding/gparser"
-	"github.com/gogf/gf/text/gregex"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/encoding/gparser"
+	"github.com/rock-rabbit/gf/text/gregex"
+	"github.com/rock-rabbit/gf/text/gstr"
+	"github.com/rock-rabbit/gf/util/gconv"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gfile"
 )
 
 // Get send GET request and returns the response object.

@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 package gurl_test
 
 import (
 	"net/url"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gurl"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/encoding/gurl"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 var urlStr string = `https://golang.org/x/crypto?go-get=1 +`

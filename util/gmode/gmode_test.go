@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*"
 
 package gmode_test
 
 import (
-	"github.com/gogf/gf/util/gmode"
+	"github.com/rock-rabbit/gf/util/gmode"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func Test_AutoCheckSourceCodes(t *testing.T) {

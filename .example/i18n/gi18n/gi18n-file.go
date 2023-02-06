@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gogf/gf/i18n/gi18n"
+	"github.com/rock-rabbit/gf/i18n/gi18n"
 )
 
 func main() {

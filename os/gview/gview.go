@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gview implements a template engine based on text/template.
 //
@@ -12,14 +12,14 @@ package gview
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/internal/intlog"
+	"github.com/rock-rabbit/gf/container/gmap"
+	"github.com/rock-rabbit/gf/internal/intlog"
 
-	"github.com/gogf/gf"
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/os/gcmd"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/glog"
+	"github.com/rock-rabbit/gf"
+	"github.com/rock-rabbit/gf/container/garray"
+	"github.com/rock-rabbit/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/glog"
 )
 
 // View object for template engine.

@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gyaml_test
 
 import (
-	"github.com/gogf/gf/internal/json"
+	"github.com/rock-rabbit/gf/internal/json"
 	"testing"
 
-	"github.com/gogf/gf/encoding/gparser"
+	"github.com/rock-rabbit/gf/encoding/gparser"
 
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 
-	"github.com/gogf/gf/encoding/gyaml"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/encoding/gyaml"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 var yamlStr string = `

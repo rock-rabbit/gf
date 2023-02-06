@@ -2,22 +2,22 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gins_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/frame/gins"
+	"github.com/rock-rabbit/gf/debug/gdebug"
+	"github.com/rock-rabbit/gf/frame/gins"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/os/gcfg"
+	"github.com/rock-rabbit/gf/os/gcfg"
 
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gtime"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 var (

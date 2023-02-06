@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gstr provides functions for string handling.
 package gstr
@@ -16,11 +16,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gogf/gf/internal/utils"
+	"github.com/rock-rabbit/gf/internal/utils"
 
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/util/gconv"
 
-	"github.com/gogf/gf/util/grand"
+	"github.com/rock-rabbit/gf/util/grand"
 )
 
 const (

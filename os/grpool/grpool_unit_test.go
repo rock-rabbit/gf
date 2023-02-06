@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*" -count=1
 
@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/container/garray"
-	"github.com/gogf/gf/os/grpool"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/container/garray"
+	"github.com/rock-rabbit/gf/os/grpool"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func Test_Basic(t *testing.T) {

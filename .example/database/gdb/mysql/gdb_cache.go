@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/util/gutil"
+	"github.com/rock-rabbit/gf/database/gdb"
+	"github.com/rock-rabbit/gf/util/gutil"
 	"time"
 )
 

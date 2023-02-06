@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gtrace provides convenience wrapping functionality for tracing feature using OpenTelemetry.
 package gtrace
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gmap"
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/net/gipv4"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/container/gmap"
+	"github.com/rock-rabbit/gf/container/gvar"
+	"github.com/rock-rabbit/gf/net/gipv4"
+	"github.com/rock-rabbit/gf/os/gcmd"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/propagation"

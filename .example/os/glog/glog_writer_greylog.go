@@ -1,7 +1,7 @@
 package main
 
 //import (
-//	"github.com/gogf/gf/os/glog"
+//	"github.com/rock-rabbit/gf/os/glog"
 //	"github.com/robertkowalski/graylog-golang"
 //)
 //

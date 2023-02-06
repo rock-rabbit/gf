@@ -2,15 +2,15 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gdb_test
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 	"testing"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func Test_Model_SubQuery_Where(t *testing.T) {

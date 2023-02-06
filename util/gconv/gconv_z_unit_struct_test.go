@@ -2,17 +2,17 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gconv_test
 
 import (
-	"github.com/gogf/gf/container/gvar"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/internal/json"
-	"github.com/gogf/gf/os/gtime"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/container/gvar"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/internal/json"
+	"github.com/rock-rabbit/gf/os/gtime"
+	"github.com/rock-rabbit/gf/test/gtest"
+	"github.com/rock-rabbit/gf/util/gconv"
 	"testing"
 	"time"
 )
@@ -499,7 +499,7 @@ func Test_StructEmbedded3(t *testing.T) {
 	})
 }
 
-// https://github.com/gogf/gf/issues/775
+// https://github.com/rock-rabbit/gf/issues/775
 func Test_StructEmbedded4(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type Sub2 struct {
@@ -640,7 +640,7 @@ func Test_Struct_Time(t *testing.T) {
 }
 
 func Test_Struct_GTime(t *testing.T) {
-	// https://github.com/gogf/gf/issues/1387
+	// https://github.com/rock-rabbit/gf/issues/1387
 	gtest.C(t, func(t *gtest.T) {
 		type User struct {
 			Name       string

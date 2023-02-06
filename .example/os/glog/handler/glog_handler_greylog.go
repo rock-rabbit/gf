@@ -2,8 +2,8 @@ package main
 
 //import (
 //	"context"
-//	"github.com/gogf/gf/frame/g"
-//	"github.com/gogf/gf/os/glog"
+//	"github.com/rock-rabbit/gf/frame/g"
+//	"github.com/rock-rabbit/gf/os/glog"
 //	"github.com/robertkowalski/graylog-golang"
 //)
 //

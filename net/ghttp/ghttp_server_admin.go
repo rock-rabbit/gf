@@ -2,18 +2,18 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package ghttp
 
 import (
-	"github.com/gogf/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gfile"
 	"strings"
 	"time"
 
-	"github.com/gogf/gf/os/gproc"
-	"github.com/gogf/gf/os/gtimer"
-	"github.com/gogf/gf/os/gview"
+	"github.com/rock-rabbit/gf/os/gproc"
+	"github.com/rock-rabbit/gf/os/gtimer"
+	"github.com/rock-rabbit/gf/os/gview"
 )
 
 // utilAdmin is the controller for administration.

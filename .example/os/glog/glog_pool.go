@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/frame/g"
 	"time"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/rock-rabbit/gf/os/gtime"
 )
 
 // 测试删除日志文件是否会重建日志文件

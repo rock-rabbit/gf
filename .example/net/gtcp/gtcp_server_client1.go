@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/net/gtcp"
+	"github.com/rock-rabbit/gf/os/glog"
+	"github.com/rock-rabbit/gf/util/gconv"
 )
 
 func main() {

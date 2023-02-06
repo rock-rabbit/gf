@@ -2,12 +2,12 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package client
 
 import (
-	"github.com/gogf/gf/container/gvar"
+	"github.com/rock-rabbit/gf/container/gvar"
 )
 
 // GetVar sends a GET request, retrieves and converts the result content to specified pointer.

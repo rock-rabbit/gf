@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/gogf/gf/encoding/ghash"
+	"github.com/rock-rabbit/gf/encoding/ghash"
 )
 
 func main() {

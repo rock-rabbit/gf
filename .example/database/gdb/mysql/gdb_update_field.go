@@ -3,10 +3,10 @@ package main
 import (
 	"database/sql"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gfile"
 
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/frame/g"
+	"github.com/rock-rabbit/gf/encoding/gjson"
+	"github.com/rock-rabbit/gf/frame/g"
 )
 
 func main() {

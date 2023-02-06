@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gogf/gf/util/guid"
+	"github.com/rock-rabbit/gf/util/guid"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gring_test
 
@@ -10,9 +10,9 @@ import (
 	"container/ring"
 	"testing"
 
-	"github.com/gogf/gf/container/gring"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/container/gring"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 type Student struct {

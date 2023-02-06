@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // static service testing.
 
@@ -10,15 +10,15 @@ package ghttp_test
 
 import (
 	"fmt"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/encoding/ghtml"
-	"github.com/gogf/gf/os/gview"
+	"github.com/rock-rabbit/gf/debug/gdebug"
+	"github.com/rock-rabbit/gf/encoding/ghtml"
+	"github.com/rock-rabbit/gf/os/gview"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/net/ghttp"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func Test_Template_Basic(t *testing.T) {

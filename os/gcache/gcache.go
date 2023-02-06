@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // Package gcache provides kinds of cache management for process.
 // It provides a concurrent-safe in-memory cache adapter for process in default.
@@ -10,7 +10,7 @@ package gcache
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gvar"
+	"github.com/rock-rabbit/gf/container/gvar"
 	"time"
 )
 

@@ -2,16 +2,16 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gsession
 
 import (
 	"context"
-	"github.com/gogf/gf/container/gmap"
+	"github.com/rock-rabbit/gf/container/gmap"
 	"time"
 
-	"github.com/gogf/gf/os/gcache"
+	"github.com/rock-rabbit/gf/os/gcache"
 )
 
 // Manager for sessions.

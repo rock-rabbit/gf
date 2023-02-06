@@ -2,23 +2,23 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package g
 
 import (
-	"github.com/gogf/gf/database/gdb"
-	"github.com/gogf/gf/database/gredis"
-	"github.com/gogf/gf/frame/gins"
-	"github.com/gogf/gf/i18n/gi18n"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/net/gtcp"
-	"github.com/gogf/gf/net/gudp"
-	"github.com/gogf/gf/os/gcfg"
-	"github.com/gogf/gf/os/glog"
-	"github.com/gogf/gf/os/gres"
-	"github.com/gogf/gf/os/gview"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/rock-rabbit/gf/database/gdb"
+	"github.com/rock-rabbit/gf/database/gredis"
+	"github.com/rock-rabbit/gf/frame/gins"
+	"github.com/rock-rabbit/gf/i18n/gi18n"
+	"github.com/rock-rabbit/gf/net/ghttp"
+	"github.com/rock-rabbit/gf/net/gtcp"
+	"github.com/rock-rabbit/gf/net/gudp"
+	"github.com/rock-rabbit/gf/os/gcfg"
+	"github.com/rock-rabbit/gf/os/glog"
+	"github.com/rock-rabbit/gf/os/gres"
+	"github.com/rock-rabbit/gf/os/gview"
+	"github.com/rock-rabbit/gf/util/gvalid"
 )
 
 // Client is a convenience function, which creates and returns a new HTTP client.

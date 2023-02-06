@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*" -benchmem
 
@@ -12,13 +12,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gogf/gf/os/gtime"
+	"github.com/rock-rabbit/gf/os/gtime"
 
-	"github.com/gogf/gf/encoding/gjson"
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcfg"
-	"github.com/gogf/gf/os/gfile"
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/encoding/gjson"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gcfg"
+	"github.com/rock-rabbit/gf/os/gfile"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func init() {

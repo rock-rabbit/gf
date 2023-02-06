@@ -2,7 +2,7 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gres
 
@@ -11,19 +11,19 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/gogf/gf/encoding/gbase64"
-	"github.com/gogf/gf/encoding/gcompress"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/gconv"
+	"github.com/rock-rabbit/gf/encoding/gbase64"
+	"github.com/rock-rabbit/gf/encoding/gcompress"
+	"github.com/rock-rabbit/gf/text/gstr"
+	"github.com/rock-rabbit/gf/util/gconv"
 
-	"github.com/gogf/gf/os/gfile"
+	"github.com/rock-rabbit/gf/os/gfile"
 )
 
 const (
 	packedGoSouceTemplate = `
 package %s
 
-import "github.com/gogf/gf/os/gres"
+import "github.com/rock-rabbit/gf/os/gres"
 
 func init() {
 	if err := gres.Add("%s"); err != nil {

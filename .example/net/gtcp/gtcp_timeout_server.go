@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gogf/gf/net/gtcp"
+	"github.com/rock-rabbit/gf/net/gtcp"
 )
 
 func main() {

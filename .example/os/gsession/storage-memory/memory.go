@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
-	"github.com/gogf/gf/os/gsession"
-	"github.com/gogf/gf/os/gtime"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/net/ghttp"
+	"github.com/rock-rabbit/gf/os/gsession"
+	"github.com/rock-rabbit/gf/os/gtime"
 	"time"
 )
 

@@ -2,19 +2,19 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package ghttp
 
 import (
 	"bytes"
-	"github.com/gogf/gf/debug/gdebug"
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/debug/gdebug"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
 	"reflect"
 	"strings"
 
-	"github.com/gogf/gf/text/gstr"
+	"github.com/rock-rabbit/gf/text/gstr"
 )
 
 // BindHandler registers a handler function to server with given pattern.

@@ -2,20 +2,20 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 // go test *.go -bench=".*" -benchmem
 
 package gcmd_test
 
 import (
-	"github.com/gogf/gf/os/genv"
+	"github.com/rock-rabbit/gf/os/genv"
 	"testing"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/os/gcmd"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/os/gcmd"
 
-	"github.com/gogf/gf/test/gtest"
+	"github.com/rock-rabbit/gf/test/gtest"
 )
 
 func Test_Default(t *testing.T) {

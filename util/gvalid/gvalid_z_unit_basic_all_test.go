@@ -2,21 +2,22 @@
 //
 // This Source Code Form is subject to the terms of the MIT License.
 // If a copy of the MIT was not distributed with this file,
-// You can obtain one at https://github.com/gogf/gf.
+// You can obtain one at https://github.com/rock-rabbit/gf.
 
 package gvalid_test
 
 import (
 	"context"
-	"github.com/gogf/gf/errors/gcode"
-	"github.com/gogf/gf/errors/gerror"
-	"github.com/gogf/gf/os/gtime"
 	"testing"
 	"time"
 
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/test/gtest"
-	"github.com/gogf/gf/util/gvalid"
+	"github.com/rock-rabbit/gf/errors/gcode"
+	"github.com/rock-rabbit/gf/errors/gerror"
+	"github.com/rock-rabbit/gf/os/gtime"
+
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/test/gtest"
+	"github.com/rock-rabbit/gf/util/gvalid"
 )
 
 func Test_Check(t *testing.T) {
@@ -1000,7 +1001,7 @@ func Test_Regex2(t *testing.T) {
 	})
 }
 
-// issue: https://github.com/gogf/gf/issues/1077
+// issue: https://github.com/rock-rabbit/gf/issues/1077
 func Test_InternalError_String(t *testing.T) {
 	gtest.C(t, func(t *gtest.T) {
 		type a struct {

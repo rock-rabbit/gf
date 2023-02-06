@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gogf/gf/os/gmlock"
+	"github.com/rock-rabbit/gf/os/gmlock"
 )
 
 // 测试Locker是否会产生死锁

@@ -2,8 +2,8 @@
 package main
 
 import (
-	"github.com/gogf/gf/frame/g"
-	"github.com/gogf/gf/net/ghttp"
+	"github.com/rock-rabbit/gf/frame/g"
+	"github.com/rock-rabbit/gf/net/ghttp"
 )
 
 func main() {
