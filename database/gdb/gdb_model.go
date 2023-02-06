@@ -9,8 +9,9 @@ package gdb
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf/util/gconv"
 	"time"
+
+	"github.com/gogf/gf/util/gconv"
 
 	"github.com/gogf/gf/text/gregex"
 
@@ -51,7 +52,21 @@ type Model struct {
 	safe          bool               // If true, it clones and returns a new model object whenever operation done; or else it changes the attribute of current model.
 	onDuplicate   interface{}        // onDuplicate is used for ON "DUPLICATE KEY UPDATE" statement.
 	onDuplicateEx interface{}        // onDuplicateEx is used for excluding some columns ON "DUPLICATE KEY UPDATE" statement.
+	hook          ModelHookHandler
 }
+
+// HookEvent hook 事件
+type HookEvent string
+
+const (
+	HookEventInsert HookEvent = "insert"
+	HookEventDelete HookEvent = "delete"
+	HookEventUpdate HookEvent = "update"
+	HookEventSeelct HookEvent = "select"
+)
+
+// ModelHookHandler
+type ModelHookHandler func(event HookEvent, m *Model, data ...interface{}) *Model
 
 // ModelHandler is a function that handles given Model and returns a new Model that is custom modified.
 type ModelHandler func(m *Model) *Model
@@ -85,15 +100,15 @@ func (c *Core) Table(tableNameQueryOrStruct ...interface{}) *Model {
 
 // Model creates and returns a new ORM model from given schema.
 // The parameter `tableNameQueryOrStruct` can be more than one table names, and also alias name, like:
-// 1. Model names:
-//    db.Model("user")
-//    db.Model("user u")
-//    db.Model("user, user_detail")
-//    db.Model("user u, user_detail ud")
-// 2. Model name with alias:
-//    db.Model("user", "u")
-// 3. Model name with sub-query:
-//    db.Model("? AS a, ? AS b", subQuery1, subQuery2)
+//  1. Model names:
+//     db.Model("user")
+//     db.Model("user u")
+//     db.Model("user, user_detail")
+//     db.Model("user u, user_detail ud")
+//  2. Model name with alias:
+//     db.Model("user", "u")
+//  3. Model name with sub-query:
+//     db.Model("? AS a, ? AS b", subQuery1, subQuery2)
 func (c *Core) Model(tableNameQueryOrStruct ...interface{}) *Model {
 	var (
 		tableStr  string
@@ -146,7 +161,8 @@ func (c *Core) Model(tableNameQueryOrStruct ...interface{}) *Model {
 
 // Raw creates and returns a model based on a raw sql not a table.
 // Example:
-//     db.Raw("SELECT * FROM `user` WHERE `name` = ?", "john").Scan(&result)
+//
+//	db.Raw("SELECT * FROM `user` WHERE `name` = ?", "john").Scan(&result)
 func (c *Core) Raw(rawSql string, args ...interface{}) *Model {
 	model := c.Model()
 	model.rawSql = rawSql
@@ -156,7 +172,9 @@ func (c *Core) Raw(rawSql string, args ...interface{}) *Model {
 
 // Raw creates and returns a model based on a raw sql not a table.
 // Example:
-//     db.Raw("SELECT * FROM `user` WHERE `name` = ?", "john").Scan(&result)
+//
+//	db.Raw("SELECT * FROM `user` WHERE `name` = ?", "john").Scan(&result)
+//
 // See Core.Raw.
 func (m *Model) Raw(rawSql string, args ...interface{}) *Model {
 	model := m.db.Raw(rawSql, args...)
@@ -317,6 +335,22 @@ func (m *Model) Handler(handlers ...ModelHandler) *Model {
 	model := m.getModel()
 	for _, handler := range handlers {
 		model = handler(model)
+	}
+	return model
+}
+
+// RegisterHook 注册 Hook 方法
+func (m *Model) RegisterHook(handler ModelHookHandler) *Model {
+	model := m.getModel()
+	model.hook = handler
+	return model
+}
+
+// executeHook 执行 Hook 方法
+func (m *Model) executeHook(event HookEvent, v ...interface{}) *Model {
+	model := m.getModel()
+	if model.hook != nil {
+		model = model.hook(event, m, v)
 	}
 	return model
 }

@@ -8,9 +8,10 @@ package gdb
 
 import (
 	"database/sql"
+	"reflect"
+
 	"github.com/gogf/gf/container/gset"
 	"github.com/gogf/gf/errors/gcode"
-	"reflect"
 
 	"github.com/gogf/gf/errors/gerror"
 	"github.com/gogf/gf/os/gtime"
@@ -37,7 +38,7 @@ func (m *Model) Batch(batch int) *Model {
 // Data(g.Map{"uid": 10000, "name":"john"})
 // Data(g.Slice{g.Map{"uid": 10000, "name":"john"}, g.Map{"uid": 20000, "name":"smith"})
 func (m *Model) Data(data ...interface{}) *Model {
-	model := m.getModel()
+	model := m.executeHook(HookEventInsert, data)
 	if len(data) > 1 {
 		if s := gconv.String(data[0]); gstr.Contains(s, "?") {
 			model.data = s
@@ -115,12 +116,14 @@ func (m *Model) Data(data ...interface{}) *Model {
 // Example:
 // OnDuplicate("nickname, age")
 // OnDuplicate("nickname", "age")
-// OnDuplicate(g.Map{
-//     "nickname": gdb.Raw("CONCAT('name_', VALUES(`nickname`))"),
-// })
-// OnDuplicate(g.Map{
-//     "nickname": "passport",
-// })
+//
+//	OnDuplicate(g.Map{
+//	    "nickname": gdb.Raw("CONCAT('name_', VALUES(`nickname`))"),
+//	})
+//
+//	OnDuplicate(g.Map{
+//	    "nickname": "passport",
+//	})
 func (m *Model) OnDuplicate(onDuplicate ...interface{}) *Model {
 	model := m.getModel()
 	if len(onDuplicate) > 1 {
@@ -137,10 +140,11 @@ func (m *Model) OnDuplicate(onDuplicate ...interface{}) *Model {
 // Example:
 // OnDuplicateEx("passport, password")
 // OnDuplicateEx("passport", "password")
-// OnDuplicateEx(g.Map{
-//     "passport": "",
-//     "password": "",
-// })
+//
+//	OnDuplicateEx(g.Map{
+//	    "passport": "",
+//	    "password": "",
+//	})
 func (m *Model) OnDuplicateEx(onDuplicateEx ...interface{}) *Model {
 	model := m.getModel()
 	if len(onDuplicateEx) > 1 {
